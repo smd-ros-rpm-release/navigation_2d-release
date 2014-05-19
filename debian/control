@@ -1,0 +1,12 @@
+Source: ros-hydro-nav2d-operator
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-costmap-2d, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-tf
+Homepage: http://wiki.ros.org/nav2d_operator
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nav2d-operator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-costmap-2d, ros-hydro-message-runtime, ros-hydro-roscpp, ros-hydro-tf
+Description: This package provides a lightweight, purely reactive obstacle-avoidance module for mobile robots moving in a planar environment. The operator node works by evaluating a set of predefined motion primitives based on a local costmap and a desired direction. The best evaluated motion command will be send to the mobile base.

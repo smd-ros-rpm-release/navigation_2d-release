@@ -1,0 +1,12 @@
+Source: ros-hydro-nav2d-tutorials
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://wiki.ros.org/nav2d_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nav2d-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-nav2d-exploration, ros-hydro-nav2d-karto, ros-hydro-nav2d-localizer, ros-hydro-nav2d-msgs, ros-hydro-nav2d-navigator, ros-hydro-nav2d-operator, ros-hydro-nav2d-remote
+Description: Contains a set of tutorials that run 2D-Navigation within Stage-Simulator.

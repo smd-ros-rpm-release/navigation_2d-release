@@ -1,0 +1,12 @@
+Source: ros-hydro-nav2d-msgs
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Homepage: http://wiki.ros.org/nav2d_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nav2d-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Description: Messages used for 2D-Navigation.

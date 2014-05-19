@@ -1,0 +1,12 @@
+Source: ros-hydro-nav2d-localizer
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-tf
+Homepage: http://wiki.ros.org/self_localizer
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nav2d-localizer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-roscpp, ros-hydro-tf
+Description: Contains a ros-wrapper around a Particle Filter implementation. The SelfLocalizer can be used as library or as a ros-node.
